@@ -41,13 +41,13 @@ function SignUp() {
                       <Button
                         btnText="Sign In"
                         width="40%"
-                        onClick={() => navigate("/signin")}
+                        onClick={() => navigate("/")}
                       />
                       {/* customClass="signInBtn" */}
                     </div>
                     <p className="pra">
                       Don't have an account?
-                      <Link className="link" to="/signin">
+                      <Link className="link" to="/">
                         Sign In
                       </Link>
                     </p>

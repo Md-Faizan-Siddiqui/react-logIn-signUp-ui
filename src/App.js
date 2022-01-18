@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/signin" element={<SignIn />} />
+        <Route exact path="/" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
     </>

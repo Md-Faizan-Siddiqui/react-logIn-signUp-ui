@@ -4,7 +4,7 @@ import SignUp from "../../Pages/SignUp/SignUp";
 export const MenuItems = [
   {
     title: "Sign In",
-    url: "/signin",
+    url: "/",
     cName: "navLinks",
     component: <SignIn />,
   },

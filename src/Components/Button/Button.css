@@ -1,0 +1,26 @@
+.btn {
+  color: #6032db;
+  width: 100%;
+  height: 46px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 1px solid #f0bd24;
+  transition: all 0.3s;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #f0bd24 51%, #f79820 70%);
+  cursor: pointer;
+}
+.btn:hover{
+  background-image: none;
+  color: #fff;
+  width: 100%;
+  height: 46px;
+  font-size: 14px;
+  border-radius: 30px;
+  transition: all 0.3s;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  cursor: pointer;
+  overflow: hidden;
+}

@@ -1,0 +1,48 @@
+.inputDiv {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 46px;
+  font-size: 14px;
+  border-radius: 30px;
+  border: 1px solid #6032db;
+  transition: all 0.3s;
+  margin-top: 30px;
+  padding: 0 0 0 20px;
+  background-color: #fff;
+}
+
+.input:active {
+  background: transparent;
+}
+
+.input {
+  outline: none;
+  width: 99%;
+  border: none;
+  height: 100%;
+  border-radius: 30px;
+  padding-left: 10px;
+}
+
+.inputIcon {
+  color: #6032db;
+  font-size: 20px;
+}
+
+.inputDiv:focus {
+  outline: none;
+  border: none;
+  border: 1px solid #23c0e9;
+}
+
+.inputDiv:hover {
+  outline: #f79820;
+  border: 1px solid #f79820;
+}
+
+label {
+  font-size: 14px;
+  color: #a69aa6;
+  font-weight: 400;
+}
